@@ -1,3 +1,70 @@
 /*
  * Estilos de tu proyecto
  */
+body{
+	margin:0 auto;
+	padding:0;
+
+}
+header{
+    background-color: #2b3d4f;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.start{
+    margin-left: 50px;
+    float: left;
+    overflow: hidden;
+    color: white;
+}
+
+.links{
+    float: right;
+    color: #EDE9E2;
+    margin-right: 20px;
+    font-size: 15px;
+    height: 55px;
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    margin-top: 0px;
+}
+
+li {
+    height: 100%;
+}
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+	color:#18bc9c;
+}
+#main{
+	background-color: #18bc9c;
+}
+#main img{
+	margin-top:150px;
+	text-align: center;
+}
+h1{
+   color: white;
+   font-size: 50px;
+   font-weight: bold;
+}
+
