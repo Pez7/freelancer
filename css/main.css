@@ -2,6 +2,7 @@
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 body {
     padding: 0;
@@ -13,7 +14,7 @@ header{
     height: 70px;
     position: fixed;
     z-index: 1
-    font-family: 'Montserrat', sans-serif;
+    
 }
 .left{
 	margin-left: 50px;
@@ -59,5 +60,36 @@ section {
     text-align: center;
     color: #fff;
 }
-
-
+.port{
+	text-align: center;
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+.star{
+	text-align: center;
+}
+#about{
+	background-color: #18bc9c;
+    text-align: center;
+    color: #fff;
+}
+.text{
+	font-size: 23px;
+	text-align: justify;
+}
+.btn:hover{	
+	color: #18BC9C;
+    background: #fff;
+ }
+.btn{
+	background-color: #18BC9C;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 316px;
+    height: 46px;
+    border: 2px solid #fff;
+    margin: 0px auto;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
